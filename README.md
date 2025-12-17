@@ -21,7 +21,7 @@ Designed to read the field like a quarterback, this model processes spatial form
 ### 2. LightGBM (Production Solution)
 A Gradient Boosting Decision Tree (GBDT) approach that treats trajectory prediction as a regression problem.
 * **Input Features:** velocity ($s, dir$), acceleration ($a$), orientation ($o$), and time delta ($\Delta t$).
-* **Strategy:** We employ **Iterative Querying**, predicting the displacement for sequential time steps ($t=0.1, 0.2, \dots, 3.0$) to reconstruct the full trajectory curve.
+* **Strategy:** We employ an iterative querying, predicting the displacement for sequential time steps ($t=0.1, 0.2, \dots, 3.0$) to reconstruct the full trajectory curve.
 
 ## References
 **Data Source:**
