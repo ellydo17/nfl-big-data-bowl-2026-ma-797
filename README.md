@@ -3,7 +3,7 @@
 ##### Elly Do, and Martin Yu
 
 ## Project Overview
-This repository contains the source code for a submission to NFL Big Data Bowl 2026 competition. 
+This repository contains the source code for a submission to NFL Big Data Bowl 2026 Kaggle competition. 
 The objective of this project is to predict the future trajectories of NFL players using multimodal tracking data.
 
 Our work includes two distinct models:
